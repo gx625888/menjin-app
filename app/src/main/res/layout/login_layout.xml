@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loginbackgroundcolor"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="48dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:scaleType="centerCrop"
+        android:paddingBottom="20dp"
+        android:src="@drawable/ic_login" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/login_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="手机号"
+            android:inputType="number"
+            android:textColor="@color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginphone_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="登录"
+        android:background="@drawable/grassgray_edit"
+        android:onClick="tohomelist"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+</LinearLayout>

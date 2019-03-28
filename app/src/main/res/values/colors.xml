@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gery1">#D7D6DB</color>
+    <color name="node_text_selected">#f93f19</color>
+    <color name="grassgreen">#2F9772</color><!--草绿色 -->
+
+    <color name="colorPrimaryTrans">#a0673AB7</color>
+    <color name="loginbackgroundcolor">#FFE8E6EC</color>
+
+    <color name="bgAndDivider">#D7D6DB</color>
+    <color name="buttoncolor">#FFF</color>
+</resources>

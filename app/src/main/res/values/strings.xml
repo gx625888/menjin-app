@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">芝麻开门</string>
+    <string name="edt_phone">请输入手机号:</string>
+    <string name="bind">绑定手机</string>
+    <string name="send1">临时密码</string>
+    <string name="send2">远程开门</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+</resources>

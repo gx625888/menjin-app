@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_50">50dp</dimen>
+    <dimen name="space_45">45dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_35">35dp</dimen>
+    <dimen name="space_30">30dp</dimen>
+    <dimen name="space_25">25dp</dimen>
+    <dimen name="space_22">22dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_18">18dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_15">15dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_200">200dp</dimen>
+    <dimen name="text_size16">16sp</dimen>
+    <dimen name="divide_size0_5">0.7dp</dimen>
+
+    <dimen name="height_border">0.5dp</dimen>
+    <dimen name="width_border">0.5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

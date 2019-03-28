@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circle_back_border"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/curtain_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/product_qr_code"
+            android:layout_marginTop="@dimen/space_30"
+            android:gravity="center"
+            android:text="测试1"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/space_200"
+            android:scaleType="fitXY"
+            android:layout_height="@dimen/space_40" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#c0c0c0" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<TextView-->
+                <!--android:id="@+id/warm_prompt"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="@dimen/space_40"-->
+                <!--android:gravity="center"-->
+                <!--android:text="否"-->
+                <!--android:textSize="@dimen/text_size16" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginLeft="@dimen/space_10"-->
+                <!--android:layout_marginRight="@dimen/space_10"-->
+                <!--android:background="#c0c0c0" />-->
+
+            <TextView
+                android:id="@+id/message_reject"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/space_40"
+                android:gravity="center"
+                android:text="否"
+                android:textColor="@color/node_text_selected"
+                android:textSize="@dimen/text_size16" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
